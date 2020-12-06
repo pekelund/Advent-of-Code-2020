@@ -58,7 +58,7 @@ public class December1 extends BaseDag {
     }
 
     public void solve() {
-        ArrayList<Integer> inputData = FileReader.fileToArrayList("december1.txt");
+        ArrayList<Integer> inputData = FileReader.fileToArrayListInteger("december1.txt");
 
         part1(inputData);
         part2(inputData);
